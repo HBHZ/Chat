@@ -1,0 +1,17 @@
+///<reference path="jquery-1.6.2.js" />
+(function ($,windwo){
+  ///<param name="$" type="jquery' />
+  "use strict";
+  if(typeof(window.signalR) === "function"){
+      return
+  }
+  
+  if(typeof($) !== "function"){
+    //no jQuery!
+    throw "SignalR:jQuery not found.Please ensure jQuery is referenced before the SignalR.js file.";
+  }
+  
+  if(!window.JSON){
+      //no JSON!
+      throw "SignalR:No JSON parser found. Please ensuer json2.js is referenced before the SignalR.js file if you need to support client without native JSON parsing support,e.g. IE<8.";
+  }
