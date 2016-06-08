@@ -1,5 +1,5 @@
 Microsoft Visual Studio Solution File,Format Version 11.00
-Visual Studio 2010
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00CO4F79EFBC}"} = "SignalR.Samples","SignalR.Sample\SignalR.Sample.csproj","{1EA34A62-E03E_45CF-A9C9-B2D2DA0FCDB2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR","SignalR\SignalR.csproj","{1B9AB2C4-BCA1-4834-A33E-226F17BE070B}"
